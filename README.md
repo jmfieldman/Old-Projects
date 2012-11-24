@@ -107,3 +107,31 @@ Random Art
 Colors can be represented by different amounts of red, green and blue. The random art generator graphs each of these three values determined by a randomly generated mathematical function inside of a bounded 2D plane. The equation for each picture is printed above it.
 
 Sometimes math is boring, and sometimes it’s very interesting. This is reflected in the different kinds of pictures you’ll see. Since the equations are generated completely randomly, there is no guarantee that an interesting picture will be created.
+
+
+Complex Graphing
+----------------
+
+I took Math 185 in the fall of 2001. It dealt with complex numbers and a bunch of other stuff like e^πi + 1 = 0.
+
+When you graph a normal function like “f(x) = 2x+1″ you can use a normal cartesian coordinate system because you’re dealing with R->R. Since complex functions are C->C, the graph of a complex equation is really an image from one two-dimensional coordinate system to another.
+
+Drawing these images is a hard because they’re usually very unintuative. you have to calculate a crapload of different points and try figure out what it’s supposed to look like.
+
+It’s pretty easy to use the program. Enter the complex function into the top edit box (look at the sample screenshots to see examples). Remember that the complex function uses “z” as the variable (z = x + iy).
+
+Once the complex function is entered, you can do two things: 1) just click the “Recalculate” button or 2) enter a standard real-valued function of x into the second edit box and press the “Recalculate” button.
+
+If you don’t enter a second function, the program will create a blanket that covers the entire right graph. This blanket is then translated onto the second graph by using the complex equation. If you do enter a second function the program will just translate the function you entered.
+
+After calculating, you can draw on the left graph by dragging the left mouse button and see how the drawing is imaged to the right graph. You can move the graphs by dragging the right mouse button, and zoom with the buttons below.
+
+There’s probably a lot of extra cool things i could have done with this program, but since no one on Earth will ever care about this I didn’t bother.
+
+
+Galaxy Simulation
+-----------------
+
+In 2003, my friend Nick and I had been talking about space games (Master of Orion, Space Empires, etc) and how most of them use a 2D mapping system. Well, if i was ever going to write a 4X space game it would definitely have to be set in a 3D environment.
+
+So to see if this was even plausible I spent a weekend and came up with a model of how a 3D galaxy could look. It’s probably the worst galaxy simulation program ever written. Bite me.
