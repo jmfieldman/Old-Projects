@@ -1,0 +1,125 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FORMVIEW DIALOG DISCARDABLE  0, 0, 524, 327
+STYLE DS_3DLOOK | WS_MINIMIZEBOX | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Squared v1.0"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Static",IDC_VIEW,7,7,369,313
+    EDITTEXT        IDC_NAMEEDIT,435,42,80,12,ES_AUTOHSCROLL | WS_GROUP
+    LTEXT           "Name:",IDC_STATIC,397,43,25,10
+    EDITTEXT        IDC_IPEDIT,435,56,80,12,ES_AUTOHSCROLL
+    LTEXT           "IP:",IDC_STATIC,397,58,15,10
+    GROUPBOX        "Connection Properties",IDC_STATIC,385,31,135,45
+    CTEXT           "Squared\nBy Jason Fieldman",IDC_STATIC,411,9,76,17
+    PUSHBUTTON      "Connect",IDC_CONNECT,384,81,68,16
+    PUSHBUTTON      "Begin Server",IDC_SERVEBUTTON,452,81,68,16
+    CONTROL         "",IDC_TEXT,"RICHEDIT",ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_OEMCONVERT | ES_READONLY | ES_NUMBER | WS_BORDER | 
+                    WS_VSCROLL | WS_TABSTOP,384,140,136,164
+    EDITTEXT        IDC_CHATEDIT,384,308,136,12,ES_AUTOHSCROLL
+    ICON            IDI_ICON1,IDC_STATIC,492,8,20,20
+    LTEXT           "Player 1",IDC_NAME1,420,108,60,8
+    LTEXT           "Player 2",IDC_NAME2,420,120,60,8
+    LTEXT           "--->",IDC_MOVE1,400,108,16,8
+    LTEXT           "",IDC_MOVE2,400,120,16,8
+    LTEXT           "0",IDC_SCORE1,484,108,24,8
+    LTEXT           "0",IDC_SCORE2,484,120,24,8
+    GROUPBOX        "",IDC_STATIC,388,100,128,32
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_FORMVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 517
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 320
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "icon1.ico"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
