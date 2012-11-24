@@ -1,0 +1,132 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOGEX 0, 0, 496, 309
+STYLE WS_MINIMIZEBOX | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Complex Graphing Calculater - Jason Fieldman"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "",IDC_VIEW1,32,96,208,176,NOT WS_GROUP,WS_EX_STATICEDGE
+    LTEXT           "",IDC_VIEW3,256,96,208,176,0,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EQUATION,55,34,408,12,ES_AUTOHSCROLL
+    LTEXT           "f(z) =",IDC_STATIC,35,35,16,8
+    GROUPBOX        "Complex Function",IDC_STATIC,27,23,444,31
+    PUSHBUTTON      "Recalculate",IDC_CALC,291,66,160,16
+    PUSHBUTTON      "Zoom Out",IDC_VIEW1ZOOMOUT,32,276,68,12
+    PUSHBUTTON      "Zoom Reset",IDC_VIEW1ZOOMRESET,104,276,64,12
+    PUSHBUTTON      "Zoom In",IDC_VIEW1ZOOMIN,172,276,68,12
+    PUSHBUTTON      "Zoom Out",IDC_VIEW2ZOOMOUT,256,276,68,12
+    PUSHBUTTON      "Zoom Reset",IDC_VIEW2ZOOMRESET,328,276,64,12
+    PUSHBUTTON      "Zoom In",IDC_VIEW2ZOOMIN,396,276,68,12
+    EDITTEXT        IDC_LINE_EDIT,55,67,200,12,ES_AUTOHSCROLL
+    LTEXT           "f(x) = ",IDC_STATIC,35,69,16,8
+    GROUPBOX        "Line Function",IDC_STATIC,27,55,239,32
+    PUSHBUTTON      "Erase User-Drawn lines",IDC_ERASE_USER,32,292,208,12
+    LTEXT           "=>",IDC_STATIC,244,180,8,8
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 489
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 302
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_FILE_EXIT
+    END
+    POPUP "Graph Type"
+    BEGIN
+        MENUITEM "Blanket",                     ID_GRAPHTYPE_BLANKET
+        MENUITEM "Equation",                    ID_GRAPHTYPE_LINE
+        MENUITEM "Free Draw",                   ID_GRAPHTYPE_FREEDRAW
+    END
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
